@@ -1,0 +1,10 @@
+D:\2024JerryC#\GeneratePicture\GeneratePicture\bin\Debug\GeneratePicture.exe.config
+D:\2024JerryC#\GeneratePicture\GeneratePicture\bin\Debug\GeneratePicture.exe
+D:\2024JerryC#\GeneratePicture\GeneratePicture\bin\Debug\GeneratePicture.pdb
+D:\2024JerryC#\GeneratePicture\GeneratePicture\obj\Debug\GeneratePicture.csproj.AssemblyReference.cache
+D:\2024JerryC#\GeneratePicture\GeneratePicture\obj\Debug\GeneratePicture.FrmScreen.resources
+D:\2024JerryC#\GeneratePicture\GeneratePicture\obj\Debug\GeneratePicture.Properties.Resources.resources
+D:\2024JerryC#\GeneratePicture\GeneratePicture\obj\Debug\GeneratePicture.csproj.GenerateResource.cache
+D:\2024JerryC#\GeneratePicture\GeneratePicture\obj\Debug\GeneratePicture.csproj.CoreCompileInputs.cache
+D:\2024JerryC#\GeneratePicture\GeneratePicture\obj\Debug\GeneratePicture.exe
+D:\2024JerryC#\GeneratePicture\GeneratePicture\obj\Debug\GeneratePicture.pdb

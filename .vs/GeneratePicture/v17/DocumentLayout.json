@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024JerryC#\\GeneratePicture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4E5785-E4A9-4813-AD25-AE0AC63D74BC}|GeneratePicture\\GeneratePicture.csproj|D:\\2024JerryC#\\GeneratePicture\\generatepicture\\frmscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4E5785-E4A9-4813-AD25-AE0AC63D74BC}|GeneratePicture\\GeneratePicture.csproj|solutionrelative:generatepicture\\frmscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4E5785-E4A9-4813-AD25-AE0AC63D74BC}|GeneratePicture\\GeneratePicture.csproj|D:\\2024JerryC#\\GeneratePicture\\generatepicture\\ext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4E5785-E4A9-4813-AD25-AE0AC63D74BC}|GeneratePicture\\GeneratePicture.csproj|solutionrelative:generatepicture\\ext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4E5785-E4A9-4813-AD25-AE0AC63D74BC}|GeneratePicture\\GeneratePicture.csproj|D:\\2024JerryC#\\GeneratePicture\\generatepicture\\imagetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4E5785-E4A9-4813-AD25-AE0AC63D74BC}|GeneratePicture\\GeneratePicture.csproj|solutionrelative:generatepicture\\imagetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4E5785-E4A9-4813-AD25-AE0AC63D74BC}|GeneratePicture\\GeneratePicture.csproj|d:\\2024jerryc#\\generatepicture\\generatepicture\\frmscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C4E5785-E4A9-4813-AD25-AE0AC63D74BC}|GeneratePicture\\GeneratePicture.csproj|solutionrelative:generatepicture\\frmscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageTool.cs",
+              "DocumentMoniker": "D:\\2024JerryC#\\GeneratePicture\\GeneratePicture\\ImageTool.cs",
+              "RelativeDocumentMoniker": "GeneratePicture\\ImageTool.cs",
+              "ToolTip": "D:\\2024JerryC#\\GeneratePicture\\GeneratePicture\\ImageTool.cs",
+              "RelativeToolTip": "GeneratePicture\\ImageTool.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:02:35.007Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16107871:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmScreen.cs [Design]",
+              "DocumentMoniker": "D:\\2024JerryC#\\GeneratePicture\\GeneratePicture\\FrmScreen.cs",
+              "RelativeDocumentMoniker": "GeneratePicture\\FrmScreen.cs",
+              "ToolTip": "D:\\2024JerryC#\\GeneratePicture\\GeneratePicture\\FrmScreen.cs [Design]",
+              "RelativeToolTip": "GeneratePicture\\FrmScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:21:57.876Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ext.cs",
+              "DocumentMoniker": "D:\\2024JerryC#\\GeneratePicture\\GeneratePicture\\Ext.cs",
+              "RelativeDocumentMoniker": "GeneratePicture\\Ext.cs",
+              "ToolTip": "D:\\2024JerryC#\\GeneratePicture\\GeneratePicture\\Ext.cs",
+              "RelativeToolTip": "GeneratePicture\\Ext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T00:44:02.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmScreen.cs",
+              "DocumentMoniker": "D:\\2024JerryC#\\GeneratePicture\\GeneratePicture\\FrmScreen.cs",
+              "RelativeDocumentMoniker": "GeneratePicture\\FrmScreen.cs",
+              "ToolTip": "D:\\2024JerryC#\\GeneratePicture\\GeneratePicture\\FrmScreen.cs",
+              "RelativeToolTip": "GeneratePicture\\FrmScreen.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAcwM0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T00:35:10.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
