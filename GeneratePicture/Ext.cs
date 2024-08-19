@@ -26,7 +26,6 @@ namespace GeneratePicture
                 return img;
             }
         }
-
-       
+         public static int ToInt(this object o)=>Convert.ToInt32(o);
     }
 }
