@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -15,11 +15,12 @@ namespace GeneratePicture
         public List<string> imgList { get; set; } = new List<string>();
         public int GridCount { get; set; } = 2;
         public List<String> titleList { get; set; } = new List<string>();
-        public int Height { get; set; } = 1200;
-        public int Width { get; set; } = 900;
-        public int WhiteEdge { get; set; } = 2;
-        public int ImageWidth { get => (this.Width - ((GridCount - 1) * WhiteEdge)) / GridCount; }
-        public int ImageHeight { get => (this.Height - 3 * WhiteEdge) / 4; }
+        public float Height { get; set; } = 1200;
+        public float Width { get; set; } = 900;
+        public int WhiteEdge { get; set; } = 4;
+        //处理10图模式白边问题
+        public float ImageWidth { get => (this.Width - ((GridCount - 1) * WhiteEdge))/ GridCount; }
+        public float ImageHeight { get => (this.Height - 3 * WhiteEdge)/ 4; }
         public SolidBrush Brush { get; set; } = new SolidBrush(Color.White);
         public Bitmap Generate()
         {
@@ -28,7 +29,7 @@ namespace GeneratePicture
                 Alignment = StringAlignment.Center,
                 LineAlignment = StringAlignment.Center,
             };
-            Bitmap bmp = new Bitmap(Width, Height);
+            Bitmap bmp = new Bitmap(Width.ToInt(), Height.ToInt());
             using (Graphics g = Graphics.FromImage(bmp))
             {
                 g.SmoothingMode = SmoothingMode.AntiAlias;
@@ -36,7 +37,7 @@ namespace GeneratePicture
 
                 g.Clear(Color.White);
 
-                g.DrawImg(imgList[0].GetImage(), 0, 0, Width, ImageHeight);
+                g.DrawImg(imgList[0].GetImage(), 0, 0, Width.ToInt(), ImageHeight.ToInt());
                 g.DrawString(titleList[0],
                     new Font("MiSans Medium", 40),
                     Brush,
@@ -53,7 +54,7 @@ namespace GeneratePicture
                     var row = i / GridCount;
                     var x = (ImageWidth + WhiteEdge) * col;
                     var y = (ImageHeight + WhiteEdge) * (row + 1);
-                    g.DrawImg(imgList[i].GetImage(), x, y, ImageWidth, ImageHeight);
+                    g.DrawImg(imgList[i].GetImage(), x.ToInt(), y.ToInt(), ImageWidth.ToInt(), ImageHeight.ToInt());
 
                     g.DrawString(titleList[i],
                                 new Font("MiSans Medium", 40),
@@ -106,3 +107,4 @@ namespace GeneratePicture
         }
     }
 }
+
